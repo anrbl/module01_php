@@ -1,0 +1,22 @@
+.inner {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.header {
+    border-bottom: 1px solid #ddd;
+}
+
+.header .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header .gnb ul {
+    display: flex;
+    gap: 40px;
+}
